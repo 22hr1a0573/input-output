@@ -29,30 +29,21 @@ Name:  Kendriya School
 Score: 110
 Overs played: 18
 '''
-def get_team_details(team_number):
-    print(f"Team {team_number}:")
-    team_name = input("Team Name:\n").strip()
-    score = input("Score:\n").strip()
-    overs_played = input("Overs played:\n").strip()
-    return team_name, score, overs_played
+print("Team 1:")
+a = input("Team Name:\n")
+b = int(input("Score:\n"))
+c = int(input("Overs played:\n"))
+print("Team 2:")
+x = input("Team Name:\n")
+y = int(input("Score:\n"))
+z = int(input("Overs played:\n"))
 
-
-def display_match_details(team1, team2):
-    print("Match Details:")
-    print(f"Team 1:")
-    print(f"Name: {team1[0]}")
-    print(f"Score: {team1[1]}")
-    print(f"Overs played: {team1[2]}")
-    print(f"Team 2:")
-    print(f"Name: {team2[0]}")
-    print(f"Score: {team2[1]}")
-    print(f"Overs played: {team2[2]}")
-
-
-if __name__ == "__main__":
-    # Get details for both teams
-    team1_details = get_team_details(1)
-    team2_details = get_team_details(2)
-
-  
-    display_match_details(team1_details, team2_details)
+print("Match Details:")
+print("Team 1:")
+print("Name:",a)
+print("Score:",b)
+print("Overs played:",c)
+print("Team 2:")
+print("Name:",x)
+print("Score:",y)
+print("Overs played:",z)
